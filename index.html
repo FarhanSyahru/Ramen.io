@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Japanese Restaurant</title>
+        <!---link font Awsome--->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <!---Link CSS--->
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+      <!--Navbar Section-->
+    <div class="wrapper">
+      <div class="navbar">
+          <a href="" class="logo">
+              <p>Japanese Authentic Ramen </p>
+          </a>
+          <nav>
+            <ul>
+              <a href="#home"><li>Home</li></a>
+              <a href="#content"><li>Menu</li></a>
+              <a href="#contact"><li>Contact Us</li></a>
+            </ul>
+          </nav>
+      </div>
+      <div id="content" class="content">
+          <h1>Japanese Authentic Ramen</h1>
+          <p>Sekai no Ichiban Oishi Ramen </p>
+          <a href="" class="btn">Buy Now</a>
+      </div>
+  </div>
+      <!--Slidebar Section-->
+      <nav class="slidebar close">
+        <header>
+          <div class="image-text">
+            <span class="image">
+              <img src="img/sidebars.png" alt="" />
+            </span>
+  
+            <div class="text header-text">
+              <span class="name">Japanese Ramen & Teppan</span>
+              <span class="tag">Sekai no Ichiban Oishi Ramen</span>
+            </div>
+          </div>
+  
+          <img src="img/left arrow.png" alt="" class="toggle" onclick="close()" />
+        </header>
+        <div class="menu-bar">
+          <div class="menu">
+            <ul class="menu-list">
+              <li class="nav-link">
+                <a href="">
+                  <img src="img/dashboard.png" class="dash" width="25" height="25" alt="" />
+                  <span class="text nav-text" style="padding-bottom: 5px">Dashboard</span>
+                </a>
+              </li>
+              <li class="nav-link">
+                  <img src="img/shopping basket.png" class="dash" style="cursor: pointer;" id="cart-icon" width="25" height="25" alt="" />
+                  <span class="text nav-text" style="color: antiquewhite; padding-bottom: 5px">Cart</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="cart">
+            <h2 class="cart-title">Your Order</h2>
+            <div class="cart-content">
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">Rp.0</div>
+            </div>
+            <button type="button" class="btn-buy">Buy Now</button>
+            <i class="bx bx-x" id="close-cart"></i>
+        </div>
+      </nav>
+            <!--Menu Section-->
+    <div class="container2">
+      <h1>Ramen</h1>
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <img src="img/Katsu-Miso-Ramen.jpg" class="images" width="300" height="250" alt="" />
+            <h3 class="product-title">Katsu Miso Ramen</h3>
+            <h4 class="product-price">28000</h4>
+            <p>Ramen kuah miso dengan topping chicken katsu.</p>
+            <button class="buy">Buy</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/Ebimaki-Soyu-Ramen.jpg" class="images" width="300" height="250" alt="" />
+            <h3 class="product-title">Ebimaki Soyu Ramen</h3>
+            <h4 class="product-price">30000</h4>
+            <p>Ramen kuah soyu dengan topping ebimaki.</p>
+            <button class="buy">Buy</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/Tempura-Miso-Ramen.jpg" class="images" width="300" height="250" alt="" />
+            <h3 class="product-title">Tempura Miso Ramen</h3>
+            <h4 class="product-price">28000</h4>
+            <p>Ramen kuah miso dengan topping tempura.</p>
+            <button class="buy">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Contact Section-->
+  <div id="contact" class="container3">
+    <h1>Contact Us</h1>
+    <div class="wrap">
+      <form action="" class="centre">
+        <label for="Name">Name</label>
+        <input type="text" name="nama" />
+        <br />
+        <label for="Name">Email</label>
+        <input type="email" name="mail" />
+        <br />
+        <label for="address">Message</label>
+        <input type="text" />
+        <br />
+        <a href="" class="kirim">Send</a>
+      </form>
+    </div>
+    <!--Footer-->
+    <footer>
+        <h3>Created By Sacho</h3>
+    </footer> 
+</div>   
+<script src="/js/script.js"></script>
+    </body>
+</html>
